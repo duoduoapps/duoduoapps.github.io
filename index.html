@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DuoDuo Apps - Mobile Apps That Make Life Better</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+        
+        h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+        
+        .tagline {
+            font-size: 1.3em;
+            opacity: 0.9;
+            margin-bottom: 40px;
+        }
+        
+        .apps {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: 40px;
+            margin: 40px 0;
+        }
+        
+        .app-card {
+            background: rgba(255, 255, 255, 0.15);
+            border-radius: 20px;
+            padding: 40px;
+            text-align: center;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .app-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+        }
+        
+        .app-icon {
+            font-size: 4em;
+            margin-bottom: 20px;
+            display: block;
+        }
+        
+        .app-card h2 {
+            font-size: 2em;
+            margin-bottom: 15px;
+            color: #FFD700;
+        }
+        
+        .app-description {
+            font-size: 1.1em;
+            margin-bottom: 25px;
+            opacity: 0.9;
+        }
+        
+        .app-features {
+            text-align: left;
+            margin: 20px 0;
+        }
+        
+        .app-features li {
+            margin-bottom: 8px;
+            opacity: 0.8;
+        }
+        
+        .download-btn {
+            display: inline-block;
+            padding: 12px 25px;
+            background: #FFD700;
+            color: #333;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: bold;
+            transition: transform 0.3s ease;
+            margin-top: 15px;
+        }
+        
+        .download-btn:hover {
+            transform: scale(1.05);
+        }
+        
+        .footer {
+            text-align: center;
+            margin-top: 80px;
+            padding-top: 40px;
+            border-top: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        
+        .footer h3 {
+            color: #FFD700;
+            margin-bottom: 15px;
+        }
+        
+        .footer a {
+            color: #FFD700;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        
+        .footer a:hover {
+            text-decoration: underline;
+        }
+        
+        @media (max-width: 768px) {
+            .apps {
+                grid-template-columns: 1fr;
+            }
+            
+            .app-card {
+                padding: 30px 20px;
+            }
+            
+            h1 {
+                font-size: 2.2em;
+            }
+            
+            .tagline {
+                font-size: 1.1em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🎯 DuoDuo Apps</h1>
+            <p class="tagline">Mobile Apps That Make Life Better</p>
+            <p>Creating intuitive applications that solve real problems for people of all ages</p>
+        </header>
+        
+        <div class="apps">
+            <div class="app-card">
+                <span class="app-icon">🚌</span>
+                <h2>One Tap Go</h2>
+                <p class="app-description">Simplifying transportation for seniors with easy-to-use commute planning and organization tools.</p>
+                
+                <ul class="app-features">
+                    <li>Large, clear interface designed for seniors</li>
+                    <li>One-tap route planning</li>
+                    <li>Public transit schedules and alerts</li>
+                    <li>Favorite destinations management</li>
+                    <li>Emergency contact integration</li>
+                </ul>
+                
+                <a href="https://apps.apple.com/us/app/one-tap-go/id6748594340" class="download-btn">Available on iOS</a>
+            </div>
+            
+            <div class="app-card">
+                <span class="app-icon">🧪</span>
+                <h2>ElementCraft</h2>
+                <p class="app-description">Teaching chemistry the Minecraft way - kids learn by crafting elements and discovering compounds through play.</p>
+                
+                <ul class="app-features">
+                    <li>Interactive element combination system</li>
+                    <li>Real chemistry education through gaming</li>
+                    <li>Achievement-based learning progression</li>
+                    <li>Safe, offline gameplay</li>
+                    <li>No personal data collection</li>
+                </ul>
+                
+                <a href="ec/index.html" class="download-btn">Learn More</a>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <h3>Get In Touch</h3>
+            <p>Have questions, feedback, or app ideas?</p>
+            <a href="mailto:duoduoapps@gmail.com">duoduoapps@gmail.com</a>
+            
+            <p style="margin-top: 40px; opacity: 0.7; font-size: 0.9em;">
+                &copy; 2025 DuoDuo Apps. Making technology accessible for everyone.
+            </p>
+        </div>
+    </div>
+</body>
+</html>
